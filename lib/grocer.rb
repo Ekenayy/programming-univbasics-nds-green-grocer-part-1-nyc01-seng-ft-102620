@@ -26,8 +26,8 @@ end
           new_cart_item[:count] += 1
         end
         new_cart_index += 1
+        binding.pry
       end
-      binding.pry 
     else
       grocery_item[:count] = 1
       new_cart << grocery_item
